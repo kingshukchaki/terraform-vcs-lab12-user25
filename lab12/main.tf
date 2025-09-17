@@ -13,10 +13,10 @@ terraform {
   }
 
   cloud {
-    organization = "REPLACE_WITH_YOUR_ORG"  # Will be updated during lab
+    organization = "user25-terraform-training"  # Will be updated during lab
 
     workspaces {
-      name = "REPLACE_WITH_WORKSPACE_NAME"  # Will be updated during lab
+      name = "vcs-lab12-user25"  # Will be updated during lab
     }
   }
 }
